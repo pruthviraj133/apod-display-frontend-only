@@ -8,7 +8,7 @@ const Sidebar = ({ handleToggleModal, isOpen, data }) => {
                 <h2>{data?.title}</h2>
                 <div className="descriptionContainer">
                     <p className="descriptionTitle">{data?.date}</p>
-                    <p>{data?.explaination}</p>
+                    <p>{data?.explanation}</p>
                 </div>
                 <button onClick={handleToggleModal}>
                     <i className="fa-solid fa-arrow-right"></i>
